@@ -1,0 +1,2 @@
+Implement a ValueHolder template structure with one type parameter T, inherited from the ICloneable interface. The ICloneable interface contains just one ICloneable* clone() const virtual method, which must return a pointer to a copy of the object on which it was called (the object must be created on the heap). The ValueHolder template, as its name suggests, stores just one value (call it data_) of type T (the type T has a copy constructor defined). Don't make the data_ field private.
+We use it to write an Any class that allows you to store values of any type.
